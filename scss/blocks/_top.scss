@@ -1,0 +1,50 @@
+// .container{
+// 	background: #fbf9f5;
+// }
+
+.top{
+	
+	padding: 20px 0;
+	background-color: #fff;
+
+	.topWrap{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		align-items: center;
+		
+
+	}
+
+
+	.topCenter{
+		flex-basis: 68.8%;
+	
+	}
+
+
+
+
+	// .borderGradient{
+	// 	width: 100%;
+	// 	height: 5px;
+	// 	border: 5px solid transparent;
+	// 	border-image: linear-gradient(to top,#f3f1ee, #fbf9f5);
+	// 	border-image-slice: 1;
+	// 	border-bottom: 0;
+	// 	border-left: 0;
+	// 	border-right: 0;
+	// }
+}
+
+
+@media(max-width: 1350px){
+
+	.top{
+
+		.wrap{
+
+			padding: 0 55px;
+		}
+	}
+}
